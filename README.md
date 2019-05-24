@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/vinted/slf4j-streamadapter.svg?branch=master)](https://travis-ci.org/vinted/slf4j-streamadapter)
+[![Release](https://jitpack.io/v/vinted/slf4j-streamadapter.svg)](https://jitpack.io/#vinted/slf4j-streamadapter)
+
 This adapter works as workaround if you are not able otherwise get output of the SLF4J logger.
 This adapter is only adapter, not a backend of the logger.
 
@@ -16,6 +19,7 @@ println(outputStream.toString())
 
 ### Download
 
+```
 repositories {
     jcenter()
     maven { url "https://jitpack.io" }
